@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: 20px 0;
+  color: #ffffff;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+}
+
+
+.filters input {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.filters input[type="checkbox"] {
+  width: auto;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.country-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: left;
+  color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.country-card:hover {
+  transform: scale(1.05);
+}
+
+.country-card img {
+  width: 10%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.country-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.country-card p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #d1d1d1;
+}
+
+.country-card a {
+  text-decoration: none;
+  color: #4caf50;
+  font-size: 14px;
+}
+
+.country-card a:hover {
+  color: #81c784;
+}
+button.active {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+
+
+
